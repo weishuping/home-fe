@@ -2,7 +2,7 @@
 /*
  * @Author: wsp
  * @Date: 2020-10-28 20:32:44
- * @LastEditTime: 2020-11-02 14:50:18
+ * @LastEditTime: 2020-11-02 18:05:42
  * @LastEditors: Please set LastEditors
  * @Description: 工程配置
  * @FilePath: /fe-homework/vue.config.js
@@ -53,7 +53,7 @@ module.exports = {
     },
     // css
     css: {
-        extract: process.env.NODE_ENV !== 'development' ? true : false
+        extract: process.env.NODE_ENV !== 'development' ? true : false, // 是否使用css分离插件 ExtractTextPlugin
     },
     assetsDir: 'static',
     indexPath: 'index.html'

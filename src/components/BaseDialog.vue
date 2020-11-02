@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-30 20:51:18
- * @LastEditTime: 2020-11-02 17:16:29
+ * @LastEditTime: 2020-11-02 18:09:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /fe-homework/src/components/BaseDialog.vue
@@ -43,6 +43,7 @@
 export default {
     name: 'BaseDialog',
     props: {
+        // 开关弹窗的标示
         open: {
             type: Boolean,
             require: true,
@@ -55,9 +56,11 @@ export default {
         };
     },
     methods: {
+        // input发生变化
         change(event) {
             this.value = event.target.value;
         },
+        // 确定，传出数据
         confirm() {
             // 更新数据
             if (this.value) {
