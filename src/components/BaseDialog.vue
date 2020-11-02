@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-30 20:51:18
- * @LastEditTime: 2020-11-02 13:54:31
+ * @LastEditTime: 2020-11-02 17:16:29
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /fe-homework/src/components/BaseDialog.vue
@@ -23,17 +23,19 @@
                 @change="change"
                 class="input-tag"/>
         </div>
-
-        <div class="dialog-footer">
-            <button 
-                type="button"
-                class="mid primary"
-                @click="confirm">Add Resources</button>
-            <button 
-                type="button"
-                class="mid normal"
-                @click="cancel">Cancel</button>
-        </div>
+        <slot name="footer">
+            <div class="dialog-footer">
+            
+                <button 
+                    type="button"
+                    class="mid primary"
+                    @click="confirm">Add Resources</button>
+                <button 
+                    type="button"
+                    class="mid normal"
+                    @click="cancel">Cancel</button>
+            </div>
+        </slot>
     </div>
 </template>
 

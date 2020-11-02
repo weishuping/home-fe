@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-29 17:24:00
- * @LastEditTime: 2020-11-02 11:49:07
+ * @LastEditTime: 2020-11-02 17:12:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /fe-homework/src/components/Card.vue

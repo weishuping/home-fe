@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-28 20:43:06
- * @LastEditTime: 2020-11-02 17:00:51
+ * @LastEditTime: 2020-11-02 17:04:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /fe-homework/src/views/menu/MenuInfo.vue
@@ -11,7 +11,6 @@
         <img src="~/assets/svgs/logo.svg" height="40" width="auto"/>
         <div class="menu-right">
             <span class="photo">
-                {{status}}
             </span>
             <i
                 :class="['toggle',status? 'icon-angle-up' : 'icon-angle-down']" 

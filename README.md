@@ -20,14 +20,14 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 
 ### 开发步骤
 1. 安装mock server ```npm install -g json-server```
-2. 创建工程，配置文件
-   ```vue-router less lodash```
+2. 创建工程，配置vue.config.js
+3. 安装依赖等
+   ```vue-router``` ``` less ``` ```lodash``` ```jest``` ```vue/test/utils```
+
+### 项目开发文档指南
 
 
 ### 开发排期
